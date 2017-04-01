@@ -11,6 +11,5 @@ os:
 
 
 script:
-  - ./clean.sh
-  - ./make.sh
-  - ./test.sh
+  - rm -rf bin
+  - ./build.sh
