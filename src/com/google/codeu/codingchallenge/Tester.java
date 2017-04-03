@@ -29,9 +29,9 @@ final class Tester {
     for (final Map.Entry<String, Test> test : tests.entrySet()) {
       try {
         test.getValue().run(factory);
-        System.out.format("Test %s : PASS\n", test.getKey());
+        System.out.format("PASS : Test %s\n", test.getKey());
       } catch (Exception ex) {
-        System.out.format("Test %s : FAIL (%s)\n", test.getKey(), ex.toString());
+        System.out.format("FAIL : Test %s (%s)\n", test.getKey(), ex.toString());
       }
     }
   }
