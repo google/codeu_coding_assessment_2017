@@ -10,10 +10,10 @@ Well it doesn't really exists. For the purpose of this question we are defining
 JSON-lite to be a stripped down version of JSON. In JSON-lite there are only
 two variable types: STRINGS and OBJECTS.
 
-A STRING is a series of characters starting with a " and ending with a ".
-Inside of a string quotes (") and backslashes (\) must be escaped with a
-back-slash (\). Some characters can be escaped to give them special meaning.
-They are 't' and 'b'. If you are familiar with programming, you may know that
+A STRING is a series of characters starting with a `"` and ending with a `"`.
+Inside of a string quotes (`"`) and backslashes (`\`) must be escaped with a
+back-slash (`\`). Some characters can be escaped to give them special meaning.
+They are `t` and `b`. If you are familiar with programming, you may know that
 there are other escapable characters, but in JSON-lite they are not supported.
 
 The following are all valid strings:
@@ -29,8 +29,8 @@ The following are all invalid strings:
  "\g"
 ~~~~
 
-An OBJECT is a series of KEY-VALUE pairs starting with a { and ending with a }
-and separated by commas. KEY-VALUE pairs are expressed as a KEY:VALUE where
+An OBJECT is a series of KEY-VALUE pairs starting with a `{` and ending with a
+`}` and separated by commas. KEY-VALUE pairs are expressed as a KEY:VALUE where
 the key must be a STRING and the value can be an OBJECT or STRING.
 
 The following is a valid key-value pair:
@@ -86,9 +86,9 @@ JSON-lite objects:
 
 We have provided the interfaces for you to implement. To make it even easier we
 have created the skeleton code for you. You just need to fill in the methods in
-MyJSON and MyJSONParser that have "TODO" written in them.
+`MyJSON` and `MyJSONParser` that have "TODO" written in them.
 
 To make sure you are on the right track we have implemented a few tests you can
 use to test your understanding. Keep in mind that the tests are just to help you
-get started; they are not exhuastive. To make sure you code is correct, we
+get started; they are not exhaustive. To make sure you code is correct, we
 suggest you add some more tests.
