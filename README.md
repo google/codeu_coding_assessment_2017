@@ -8,7 +8,7 @@ CodeU. Students will complete this JSON-lite object and JSON-lite parser.
 
 CODEU is a program created by Google to develop the skills of future software
 engineers. This project is not an offical Google Product. This project allows
-students to express their coding skills before entering CodeU.
+students to demonstrate their coding skills before entering CodeU.
 
 ## What is JSON-lite?
 
