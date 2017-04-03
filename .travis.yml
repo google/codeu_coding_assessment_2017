@@ -1,0 +1,15 @@
+language: java
+
+sudo: false
+
+jdk:
+  - openjdk7
+  - oraclejdk8
+
+os:
+  - linux
+
+
+script:
+  - rm -rf bin
+  - ./build.sh

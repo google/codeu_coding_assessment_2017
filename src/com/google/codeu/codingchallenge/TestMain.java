@@ -15,9 +15,7 @@
 package com.google.codeu.codingchallenge;
 
 import java.util.Collection;
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Map;
 
 final class TestMain {
 
