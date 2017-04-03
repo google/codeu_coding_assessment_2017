@@ -1,7 +1,7 @@
 
 # CodeU Coding Sample
 
-This project allows students to express their coding skills before entering
+This project allows students to demonstrate their coding skills before entering
 CodeU. Students will complete this JSON-lite object and JSON-lite parser.
 
 ## DISCLAIMER
