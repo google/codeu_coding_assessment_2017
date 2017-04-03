@@ -92,3 +92,47 @@ To make sure you are on the right track we have implemented a few tests you can
 use to test your understanding. Keep in mind that the tests are just to help you
 get started; they are not exhuastive. To make sure you code is correct, we
 suggest you add some more tests.
+
+## How do I submit my code?
+
+You will be forking our repository, making a copy of your own, on which you will
+then upload your solution.
+Please follow carefully these steps, since we will not accept solutions
+submitted in any other way. These instructions assume a basic familiarity with
+the GitHub workflow. If you are new to GitHub, you can familiarize youself with
+the interface and the workflow using one of the many tutorials available online.
+
+ 1. Click on the "Fork" button that you should see on the top right corner of
+    the GitHub page for this repository (the page you are currently viewing).
+ 1. Follow the on screen instructions to fork this repository to your personal
+    GitHub account.
+ 1. **Only now** clone the repository to your computer (if you use the
+    command-line tool, use `git clone <repository URL>`, if you use another Git
+    GUI follow the specific instructions for that client.
+    + If you need the repository URL, you will find it by clicking on the green
+      button that says "Clone or Download".
+    + Please make sure that you are cloning your personal repository (the one
+      you forked to), and not the original one we shared with you. You can
+      easily confirm that by veryfing that in the address bar it says:
+      ~~~
+      <your_username>/<repository_name>
+      ~~~
+      and not:
+      ~~~
+      google/<repository_name>
+      ~~~
+ 1. Working on the copy of your repository that you just cloned, Write and test
+    your solution, you can use `git commit` to save your changes locally as many
+    times as you want. When you are comfortable with your solution, go ahead and
+    push it to the main repository:
+    ~~~
+    git push origin master
+    ~~~
+    + You can push as many intermediate solutions as you wish, we will only read
+      your latest submission.
+ 1. Once you have pushed your solution, Copy and paste the link to your
+    repository on your application form and proceed with the submission.
+
+Please follow these steps precisely, and verify that your code is uploaded
+correctly by checking it on the GitHub web interface before submitting.
+**We cannot accept any other form of submission.**
