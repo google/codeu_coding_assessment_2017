@@ -20,7 +20,7 @@ two variable types: STRINGS and OBJECTS.
 A STRING is a series of characters starting with a `"` and ending with a `"`.
 Inside of a string quotes (`"`) and backslashes (`\`) must be escaped with a
 back-slash (`\`). Some characters can be escaped to give them special meaning.
-They are `t` and `b`. If you are familiar with programming, you may know that
+They are `t` and `n`. If you are familiar with programming, you may know that
 there are other escapable characters, but in JSON-lite they are not supported.
 
 The following are all valid strings:
